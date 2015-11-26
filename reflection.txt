@@ -1,0 +1,52 @@
+reflection.txt
+by Michael Szegedy, 2015
+A reflection for the Latin final project.
+
+  I went through a lot of ideas before I arrived at this one. I tried doing more
+traditional media at first, such as videos, animations, and eventually comics,
+but nothing I made lived up to my standards. If I am to do an assignment, after
+all, it will be elegant. Even if the goal isn't to be aesthetically pleasing, it
+must be elegant in some other way, such as by being consistently aesthetically
+abhorrent, or by being succinct. I eventually settled on writing an ELIZA
+knockoff in LISP. My 8th grade final project in Latin had also been an
+interactive LISP program, but a different one. I figured this would be a nice
+callback. ELIZAs are somewhat of a specialty of mine anyway; I've always wanted
+to write an adventure game where all the dialogue is done ELIZA-style. The ELIZA
+here is a very simplified one. Originally, I was going to have Horace recite
+parts of the Latin, in addition to just talking about them, but that did not
+display well, and I figured that the recitation didn't add anything when it was
+all in text form anyway. LISP's unfortunate lack of ability to process quotes
+also made inline quotes look bad, so I dispensed with quoting the text
+altogether. The result was a simplistic but aesthetically rounded program that
+could tell you about Horace's Ode 1.9 in two ways—by telling you about specific
+sections of the text, or by telling you about specific themes in the text. I was
+very pleased with how it turned out.
+  The problems I encountered were mainly programming-related and unmemorable. I
+have written a lot of ELIZAs over the years, so you'd think that I'd be able to
+just write one off of the top of my head, but it still took several hours to get
+the different moving parts right. I had particular trouble building in the
+functionality of reusing the inputted text in the response, which I ended up not
+using, which is a pity. There were also problems with formatting, but I am not
+overly concerned with formatting in an amateur program of all things, so I
+decided to work around those problems rather than write complicated code to deal
+with them.
+  I would not advise exactly this project for future students, as it doesn't
+quite complete the requirements, but a few simple additions could really make it
+work. The biggest problem is that you don't seem to like interactive things,
+which is kind of the entire gimmick of the program. You were fine with a
+presentation, though, so I suppose that if the student presents it themselves
+while taking questions from the class, it would be passable. To incorporate a
+visual component, and to be able to incorporate Latin, one would have to write a
+lot more sophisticated formatting code for the program, able to at least align
+text into lines. The visual component could be ASCII art that HORACE shows his
+interlocutor, or a daring student might use libraries to write a GUI for the
+program that is capable of displaying actual pictures. (Of course, then the
+person would have to find or make actual pictures, which are difficult to get
+ahold of.) However, the latter would probably involve far too much effort to
+exert for a Latin project, although it's very difficult to predict how long even
+simple programming jobs take, especially in terse languages like LISP. The
+bottom line is that, unless one liberally makes changes to the underlying
+concept of this program, it is difficult to fulfill the criteria of the
+assignment fully. That said, there *are* some fun alternatives in the same
+general area, but they take thought, and one can't reuse much code from this
+assignment for them.

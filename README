@@ -1,0 +1,15 @@
+Follow these instructions precisely to run the program:
+1. Direct your browser to the URL "http://www.tutorialspoint.com/execute_lisp_online.php"
+2. Click the folder named "root" in the left pane of the website
+3. Press the toolbar button named "File" at the top right of the website
+4. Click "Upload" in the resulting menu
+5. Upload "horace-simple.lisp" from wherever it is on your computer
+6. Right-click "main.lisp" in the left pane of the website and click "Delete"
+7. Right-click "horace-simple.lisp" in the left pane of the website and click
+   "Rename". Change the name of the file to "main.lisp".
+8. Click "Execute" in the upper left of the website. This should open a terminal
+   at the bottom.
+9. The program is now running. The terminal does not like spaces for some
+   reason, so use tabs to separate your words. Do not use punctuation. Press
+   enter to submit your questions to the program. Just close the window when
+   you are finished.
