@@ -4,7 +4,7 @@
 ;; based on code by Peter Norvig published in PARADIGMS OF ARTIFICIAL
 ;; INTELLIGENCE PROGRAMMING, Morgan Kaufmann publishers, 1992.
 ;;
-;; modified for class demonstration by Michael Szegedy
+;; modified for class demonstration by Maria Szegedy
 ;;
 
 #|
